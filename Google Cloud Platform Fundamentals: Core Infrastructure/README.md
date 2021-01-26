@@ -41,3 +41,11 @@ IAM lets administrators authorize who can take action on specific resources. An 
 ![105209854-51192800-5b70-11eb-95d3-ba0885ab66c9](https://user-images.githubusercontent.com/46487696/105801599-761df880-5fbf-11eb-80d7-e0bb7c739d88.png)
 ![105209855-51b1be80-5b70-11eb-80b9-65df5005241f](https://user-images.githubusercontent.com/46487696/105801601-76b68f00-5fbf-11eb-9b78-50b0e2e2121b.png)
 
+
+## Virtual Private Cloud networks
+
+The Virtual Private Cloud networks that you define have global scope. They can have subnets in any GCP region worldwide and subnets can span the zones that make up a region. This architecture makes it easy for you to define your own network layout with global scope. You can also have resources in different zones on the same subnet. You can dynamically increase the size of a subnet in a custom network by expanding the range of IP addresses allocated to it. Doing that doesn't affect already configured VMs. In this example, your VPC has one network. So far, it has one subnet defined in GCP us-east1 region. Notice that it has two Compute Engine VMs attached to it. They're neighbors on the same subnet even though they are in different zones. You can use this capability to build solutions that are resilient but still have simple network layouts
+
+![105722215-711f6180-5f4b-11eb-9e9f-3c1cf8cc5d4c](https://user-images.githubusercontent.com/46487696/105801684-aa91b480-5fbf-11eb-928a-557bb37e343d.png)
+![105722221-72508e80-5f4b-11eb-942d-39ed92442799](https://user-images.githubusercontent.com/46487696/105801687-abc2e180-5fbf-11eb-8b82-23d2ee680840.png)
+
