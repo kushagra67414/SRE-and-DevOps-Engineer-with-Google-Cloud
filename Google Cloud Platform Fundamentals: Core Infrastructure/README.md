@@ -49,3 +49,27 @@ The Virtual Private Cloud networks that you define have global scope. They can h
 ![105722215-711f6180-5f4b-11eb-9e9f-3c1cf8cc5d4c](https://user-images.githubusercontent.com/46487696/105801684-aa91b480-5fbf-11eb-928a-557bb37e343d.png)
 ![105722221-72508e80-5f4b-11eb-942d-39ed92442799](https://user-images.githubusercontent.com/46487696/105801687-abc2e180-5fbf-11eb-8b82-23d2ee680840.png)
 
+
+## Compute Engine
+
+Compute Engine offers managed  Virtual machine=>
+
+* No ufront investment
+* fast and consistent performance 
+* Create VMs with GCP console or gcloud
+* Run images of windows or linux server
+* pick persistent disks
+* pick local SSd for scratch space too if you need it 
+* take disks snapshot as backup or migration tools
+* Define a Startup Script
+
+
+Compute Engine offers innovating pricing=>
+
+* Per-second biling , Sustained use discount
+* Preemtible instances
+* High throughput to storage at no extra cost
+* Customer machine types : Only pay for the hardware you need 
+
+
+![Screenshot (1171)](https://user-images.githubusercontent.com/46487696/105804512-ff382e00-5fc5-11eb-8ab5-c668a34a84cd.png)
