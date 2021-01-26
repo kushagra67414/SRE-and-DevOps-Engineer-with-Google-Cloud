@@ -26,3 +26,18 @@ Because Google has seven services with more than a billion users, you can bet se
 
 ![104849599-8a535d00-5910-11eb-9b86-d96addab2a1c](https://user-images.githubusercontent.com/46487696/105801437-1fb0ba00-5fbf-11eb-81e4-bca50ac203e1.png)
 
+## Identity and Access Management (IAM)
+
+IAM lets administrators authorize who can take action on specific resources. An IAM policy has a "who" part, a "can do what" part, and an "on which resource" part. The "who" part names the user or users you're talking about. The "who" part of an IAM policy can be defined either by a Google account, a Google group, a Service account, an entire G Suite, or a Cloud Identity domain. The "can do what" part is defined by an IAM role. An IAM role is a collection of permissions. Most of the time, to do any meaningful operations, you need more than one permission. For example, to manage instances in a project, you need to create, delete, start, stop, and change an instance. So the permissions are grouped together into a role that makes them easier to manage.
+
+## Identity and Access Management (IAM)
+
+IAM lets administrators authorize who can take action on specific resources. An IAM policy has a "who" part, a "can do what" part, and an "on which resource" part. The "who" part names the user or users you're talking about. The "who" part of an IAM policy can be defined either by a Google account, a Google group, a Service account, an entire G Suite, or a Cloud Identity domain. The "can do what" part is defined by an IAM role. An IAM role is a collection of permissions. Most of the time, to do any meaningful operations, you need more than one permission. For example, to manage instances in a project, you need to create, delete, start, stop, and change an instance. So the permissions are grouped together into a role that makes them easier to manage.
+
+![105208909-3befc980-5b6f-11eb-8398-9bf33d9f2372](https://user-images.githubusercontent.com/46487696/105801593-73bb9e80-5fbf-11eb-9650-44e780faa5ed.png)
+![105208914-3e522380-5b6f-11eb-8f49-27fea89cd04a](https://user-images.githubusercontent.com/46487696/105801596-74eccb80-5fbf-11eb-9a68-e15dc0169b94.png)
+![105209846-4eb6ce00-5b70-11eb-9d0b-1565f5c2cb4c](https://user-images.githubusercontent.com/46487696/105801597-75856200-5fbf-11eb-9682-f43fc9a99e26.png)
+![105209853-50809180-5b70-11eb-9e62-d70d66d587af](https://user-images.githubusercontent.com/46487696/105801598-761df880-5fbf-11eb-9a95-babf4fe554b1.png)
+![105209854-51192800-5b70-11eb-95d3-ba0885ab66c9](https://user-images.githubusercontent.com/46487696/105801599-761df880-5fbf-11eb-80d7-e0bb7c739d88.png)
+![105209855-51b1be80-5b70-11eb-80b9-65df5005241f](https://user-images.githubusercontent.com/46487696/105801601-76b68f00-5fbf-11eb-9b78-50b0e2e2121b.png)
+
